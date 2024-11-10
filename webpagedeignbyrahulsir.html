@@ -1,0 +1,650 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+        <style>
+            :root{
+                --bg-mycolor:red;
+                --text-mycolor:green;
+              }
+              .bg-mycolor
+              {
+                background-color: var(--bg-mycolor) !important;
+              }
+              .text-mycolor
+              {
+                --text-mycolor:green;
+              }
+              ::-webkit-scrollbar
+              {
+                height: 8px;
+                width: 8px;
+              }
+              ::-webkit-scrollbar-track
+              {
+                    background-color: rgba(254,101,0,.3);
+                    box-shadow: 0px 0px 5px blue;
+                    border-radius: 20px;
+              }
+              ::-webkit-scrollbar-thumb
+              {
+                background-color: rgba(254,101,0,.3);
+              
+              }
+            
+        #outer
+        {
+          min-height: 1000px;
+          width: 1200px;
+          border: 1px solid black;
+          margin: 0px auto;
+         
+        }
+        #header
+        {
+            height: 50px;
+            width: 1200px;
+            background-color:black;
+            display: flex;
+        }
+        #logo
+        {
+            height: 50px;
+            width: 300px;
+            background-color:black;
+            padding: 5px 50px;
+            box-sizing: border-box;
+        }
+        #logo img{
+            height: 100%;
+
+        }
+        #manu
+        {
+            height: 50px;
+            width: 1200px;
+            padding-left: 50px;
+            box-sizing: border-box;
+        }
+        
+        #manu ul 
+        {
+            list-style: none;
+        }
+        #manu ul li
+        {
+            height: 35px;
+            width: 100px;
+          
+            float: left;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            transform: translateY(-8px);
+            margin-left: 3px;
+            line-height:30px ;
+        }
+        #manu ul li:hover
+        {
+            background-color:var(--bg-mycolor);
+            transition: all 1s;
+            border-radius: 10px;
+        }
+        .header1
+        {
+            height: 35px;
+            width: 1200px;
+            background-color: aqua;
+            display: flex;
+        }
+        .r
+        {
+            height: 35px;
+            width:300px ;
+            background-color: pink;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            font-size: 18px;
+        }
+        .r img{
+            height: 30px;
+        }
+        .r a{
+            text-decoration: none;
+        }
+        #slider
+        {
+           min-height: 475px;
+           width: 1200px;
+           background-color: gold;
+           background: url(fashion.png);
+           background-size:cover ;
+          
+        }
+        .slider1
+        {
+         height: 475px;
+         width: 1200px;
+         background-color: rgba(0,0,0,.9);
+      
+        }
+        .s1
+        {
+            height: 425px;
+            width: 400px;
+            background-color:rgba(255,255,255,.3);
+         
+            float: left;
+            margin: 25px 50px;
+            border-radius: 5px;
+            padding: 50px;
+            box-sizing: border-box;
+            background-attachment: fixed;
+        }
+        .t{
+               height: 50px;
+               width: 100%;
+               border-radius: 2px;
+               margin-bottom: 10px;
+               padding-left: 15px;
+               box-sizing: border-box;
+        }
+        .btn
+        {
+               height: 50px;
+               width: 100%;
+               border-radius: 2px;
+               margin-bottom: 10px;
+               background-color: aqua;
+        }
+        .ta
+        {
+              height: 50px;
+               width: 100%;
+               border-radius: 2px;
+               margin-bottom: 10px;
+               padding-left: 15px;
+               box-sizing: border-box; 
+        }
+        .s2
+        {
+            height: 475px;
+            width: 700px;
+            float: left; 
+        }
+        .txt{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #services
+        {
+            min-height:300px;
+            width:1200px;
+            background-color: white;
+            padding: 10px 100px;
+            box-sizing: border-box;
+        }
+        .ss1{
+            min-height: 130px;
+            width: 230px;
+            float: left;
+            background-color: rgba(0,0,0,.5);
+            margin: 10px;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 200px;
+            font-size: 20px;
+          }
+          .ss1:hover
+          {
+            background-color: white;
+            transform: scale(1.1);
+            transition: all 1s;
+          }
+
+          #Content
+          {
+           min-height: 500px;
+           width: 1200px;
+           padding: 15px 100px;
+           box-sizing: border-box;
+          }
+          .heading
+          {
+            text-align: center;
+            font-size: 28px;
+           
+           
+          }
+          #Content p 
+          {
+            columns: 2;
+            text-align: justify;
+            column-gap :50px;
+            column-rule:15px groove rgba(0,0,0,.3);
+          }
+          #phot
+          {
+            min-height: 500px;
+            width: 1200px;
+            background-attachment: fixed;
+            background-image: url(tecpi.jpg);
+            background-size:cover ;
+          }
+          #gallery
+          {
+            height:600px;
+            width: 1200px;
+            padding: 15px 150px;
+            box-sizing: border-box;
+          }
+          .row
+          {
+            height: 200px;
+            width: 900px;
+          }
+          
+          .col1
+          {
+            height: 160px;
+            width: 260px; 
+            margin: 20px;
+            background-color: red;
+            float: left;
+            padding: 5px;
+            box-sizing: border-box;
+          }
+          .col1 div {
+                       height: 100%;
+                       width: 100%;
+                       background-color: rgba(0,0,0,.9);
+                       text-align: center;
+                       color: white;
+                       line-height: 150px;
+                      }
+          .c1
+          {
+            background: url(fashion.png);
+            background-size: cover;
+          }
+          .c2
+          {
+            background: url(lop.jpg);
+            background-size: cover;
+          }
+          .c3
+          {
+            background: url(img-1.png);
+            background-size: cover;
+          }
+          .c4
+          {
+            background: url(ba.jpg);
+            background-size: cover;
+          }
+          .c5
+          {
+            background: url(beauty.png);
+            background-size: cover;
+          }
+          .c6
+          {
+            background: url(toy.png);
+            background-size: cover;
+          }
+          .col1 div:hover
+          {
+            transform:perspective(400px) rotateX(80deg);
+            transform-origin:top ;
+            transition: all 1s ;
+          }
+
+          #contactus
+          {
+            min-height: 500px;
+            width: 1170px;
+            background-color:gray;
+            padding: 15px 15px;
+          }
+          .row1
+          {
+               height: 500px;
+               width:1130px ;
+            
+               margin: 20px;
+          }
+          .co1
+          {
+            height:500px ;
+            width:350.66px;
+            background-color: white;
+            float: left;
+            margin-left: 20px;
+            padding: 30px 70px;
+            box-sizing: border-box;
+            border-radius: 20px 20px 0px 0px;
+            text-align: center;
+          }
+       
+          .img
+          {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border-radius: 50%;
+            
+          }
+          .img:hover{
+            transform: scale(1.1);
+            transition: all 1s ;
+          }
+
+
+          .img1
+          {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+          }
+          #Resitratin
+          {
+            min-height: 500px;
+            width: 1200px;
+            background:linear-gradient(45deg ,red,green,yellow,blue,pink,orange);
+            padding: 100px 300px;
+            box-sizing: border-box;
+          }
+          .retfor
+          {
+            height: 500px;
+            width: 600px;
+            background-color:#d0fed0;
+            padding: 20px 100px;
+            box-sizing: border-box;
+          }
+          .inn1
+          {
+            height: 30px;
+            width: 400px;
+            border-color:green ;
+          }
+          .inn2
+          {
+            height: 30px;
+            width: 400px;
+            background-color: blue; 
+            color: white;
+          }
+          #footer1
+          {
+            min-height: 300px;
+            width: 1200px;
+            background-color:#111111;
+            text-align: center;
+            color: white;
+            padding: 20px 300px;
+            box-sizing: border-box;
+          }
+          #footer2
+          {
+            height: 50px;
+            width: 1200px;
+            background-color: black;
+            text-align: center;
+            color: white;
+           line-height: 50px;
+            box-sizing: border-box;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+     <!--header-->
+        <div id="header">
+
+            <div id="logo">
+                <img src="code.jpg">
+            </div>
+     
+            <div id="manu">
+              <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About Us</li></a>
+                <a href="#"><li>Contact us</li></a>
+                <a href="#"><li>Resitration</li></a>
+                <a href="#"><li>Login</li></a>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Home</li></a>
+              </ul>
+            </div>
+
+        </div>
+      <!--header1-->
+    <div class="header1">
+             <div class="r">
+                <a href="tel:+91838738754">+91838738754</a>
+             </div>
+             <div class="r">
+                <a href="email@gamil.com">email@gamil.com</a>
+             </div>
+ 
+             <div class="r">
+                <a href="#">welcom to coder</a>
+             </div>
+             <div class="r">
+                <img src="facs.jpg">
+                <img src="facs.jpg">
+                <img src="facs.jpg">
+                <img src="facs.jpg">
+             </div>
+    </div>
+       <!--slider-->
+        <div id="slider">
+          <div class="slider1">
+
+            <div class="s1">
+                 <form>
+                    <input type="text" required placeholder="Name" class="t">
+                    <br/>
+                    <input type="text" required placeholder="Name" class="t">
+                    <br/>
+                    
+                    <input type="text" required placeholder="Name" class="t">
+                    <br/>
+                    
+                    <textarea class="ta" required></textarea>
+                    <input  type="button" value="submit" class="btn">
+                 </form>
+            </div>
+
+            <div class="s2">
+                <p class="txt"><b style="font-size: 50px;">Lorem ipsum,</b> <br/>dolor sit amet consectetur adipisicing elit. Quos, dolore nisi ratione beatae doloremque minima molestias reiciendis fuga blanditiis libero.</p>
+                <br/><br/>
+                <a href="#"  class="bg-mycolor" style="text-decoration: none;
+                padding: 12px;border-radius: 5px;font-size: 18px;margin-left: 300px;">Resitratin</a>
+            </div>
+          </div>
+        </div>
+
+         <div id="services">
+            <div class="ss1">summer training</div>
+            <div class="ss1"> indasial training</div>
+            <div class="ss1">it training</div>
+            <div class="ss1">Aprentiship</div>
+         </div>
+
+         <div id="Content">
+            <div class="heading" >About <b style="color: red;">Us</b>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum magni iste aut   dicta, ea labore nobis ullam adipisci asperiores odio expedita incidunt consequuntur velit autem placeat optio voluptate laboriosam ex rem ratione ipsa atque. Quidem libero   et odio saepe natus cupiditate, error, vel facere eos officiis totam eaque quia!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum magni iste aut dicta, ea labore nobis ullam adipisci asperiores odio expedita incidunt consequuntur velit autem placeat optio voluptate laboriosam ex rem ratione ipsa atque. Quidem libero et odio saepe natus cupiditate, error, vel facere eos officiis totam eaque quia!
+              </p>
+            </div>
+         </div>
+         <div id="phot">
+
+
+         </div>
+         <div id="gallery">
+            <div class="heading">Image <b style="color: red;">gallery</b></div>
+            <div class="row">
+                  <div class="col1 c1">
+                    <div>Description</div>
+                  </div>
+                  <div class="col1 c2">
+                    <div>Description</div>
+                  </div>
+                  <div class="col1 c3">
+                    <div>Description</div>
+                  </div>
+            </div>
+
+            <div class="row">
+                <div class="col1 c4">
+                    <div>Description</div>
+                </div>
+                <div class="col1 c5">
+                    <div>Description</div>
+                </div>
+                <div class="col1 c6">
+                    <div>Description</div>
+                </div>
+          </div>
+
+         </div>
+
+         <div id="contactus">
+            <div class="heading" style="color: white;">OUR TEAM MEMBERS</div>
+            <div class="row1">
+                 <div class="co1">
+                     <div class="img">
+                        <img src="di3.png" class="img1">
+                     </div>
+
+                   <h3 style="color: red;">jamy/flores</h3><span>Ceo/Directer</span>
+                    <span>Ceo/Directer</span>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sequi ratione  doloribus.</p>
+                   <div class="hedbut">
+                    <button style="height:50px;width: 200px;background:linear-gradient(to left, red,blue,pink); color: white;">Your mail here</button>
+                   </div>
+                 </div>
+
+                 <div class="co1">
+
+                    <div class="img">
+                        <img src="di4.jpg" class="img1">
+                     </div>
+
+                   <h3 style="color: red;">Watson</h3><span>Ceo/Directer</span>
+                    <span>Manager</span>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sequi ratione  doloribus.</p>
+                   <div class="hedbut">
+                    <button style="height:50px;width: 200px;background:linear-gradient(to left, red,green,orange); color: white;">Your mail here</button>
+                   </div>
+                 </div>
+
+                 <div class="co1">
+                    <div class="img">
+                        <img src="dire5.jpg" class="img1">
+                     </div>
+
+                   <h3 style="color: red;">Wiliamson</h3>
+                    <span>Directer</span>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sequi ratione  doloribus.</p>
+                   <div class="hedbut">
+                    <button style="height:50px;width: 200px;background:linear-gradient(to left, red,green); color: white;">Your mail here</button>
+                   </div>
+                 </div>
+            </div>
+           
+            <div class="row1">
+                <div class="co1">
+                    <div class="img">
+                        <img src="dire2.jpg" class="img1">
+                     </div>
+
+                   <h3 style="color: red;">Smith</h3><span>Ceo/Directer</span>
+                    <span>Mannager</span>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sequi ratione  doloribus.</p>
+                   <div class="hedbut">
+                    <button style="height:50px;width: 200px;background:linear-gradient(to left, red,pink); color:white;">Your mail here</button>
+                   </div>
+                </div>
+                <div class="co1">
+                    <div class="img">
+                        <img src="di1.jpg" class="img1">
+                     </div>
+
+                   <h3 style="color: red;">jamy/flores</h3><span>Ceo/Directer</span>
+                    <span>Ceo/Directer</span>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sequi ratione  doloribus.</p>
+                   <div class="hedbut">
+                    <button style="height:50px;width: 200px;background:linear-gradient(to left, red,blue,pink); color: white;">Your mail here</button>
+                   </div>
+                </div>
+                <div class="co1">
+                    <div class="img">
+                        <img src="dire6.jpg" class="img1">
+                     </div>
+
+                   <h3 style="color: red;">Ros teyler</h3><span>Ceo/Directer</span>
+                    <span>Ceo/Directer</span>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sequi ratione  doloribus.</p>
+                   <div class="hedbut">
+                 <button style="height:50px;width: 200px;background:linear-gradient(to left, red,blue,pink); color: white;">Your mail here </button>
+                   </div>
+                </div>
+           </div>
+         </div>
+
+          <div id="Resitratin">
+          
+            <div class="retfor">
+             <h2> Code helper Registration</h2>
+             <hr>
+             <form>
+              <label>Name:</label>
+              <br/>
+              <input type="text" autocomplete="of" placeholder="Enter your name*" class="inn1">
+              <br/>
+              <br/>
+              <label>Email:</label>
+              <br/>
+              <input type="Email" autocomplete="of" placeholder="Enter your Email*"  class="inn1">
+              <br/>
+              <br/>
+              <label>Password:</label>
+              <br/>
+              <input type="Password" autocomplete="of" placeholder="Enter your Password*"  class="inn1">
+              <br/>
+              <br/>
+              <label>Confirm Password:</label>
+              <br/>
+              <input type="Password" autocomplete="of" placeholder="Enter your Confirm Password*" class="inn1">
+          
+              <br/>
+              <br/>
+
+              <button class="inn2">Resitration</button>
+            </form>
+            </div>
+
+          </div>
+
+         <div id="footer1">
+            <span style="font-size: 20px;">Code Helper</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut saepe aperiam modi itaque ex dolorem perferendis natus, dolorum nulla officia quisquam libero excepturi porro, ut dolor est! Pariatur, dolor. Repellendus.</p>
+            <br/>
+            <br/>
+            <i class="fa-brands fa-facebook"></i> &nbsp; &nbsp;  <i class="fa-brands fa-twitter"></i> &nbsp; &nbsp; 
+
+            <i class="fa-brands fa-google"></i>&nbsp; &nbsp;  <i class="fa-brands fa-linkedin"></i> 
+
+         </div>
+         <div id="footer2">
+
+          <span>Copyright &copy;2023 Code helper Design By Suraj kumar</span>
+         </div>
+    </div>
+    </body>
+</html>

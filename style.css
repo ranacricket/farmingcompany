@@ -1,0 +1,264 @@
+.outer
+{
+   height:50px;
+    width:1200px;
+    background-color: black;
+}
+.manu
+{
+    height: 50px;
+    width: 1200px;
+    background-color:black;
+}
+.left
+{
+    height: 50px;
+    width: 300px;
+    background-color:black;
+    float: left;
+    color: white;
+}
+ .let1
+ {
+    height: 50px;
+    width: 150px;
+    background-color:black;
+    float: left;
+ }
+ .let2
+ {
+    height: 50px;
+    width: 150px;
+    background-color:black ;
+    color: white;
+    float: left;
+ }
+
+ .imlog
+ {
+    height: 50%;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+.left li 
+{
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    color:white;
+  
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.mid
+{
+    height: 50px;
+    width: 600px;
+    background-color:aqua;
+    float: left;
+}
+.letsid
+{
+    height:50px;
+    width: 50px;
+    background-color:white;
+    float: left;
+}
+.a1
+{
+    height:10px;
+    width: 50px;
+    background-color: black;
+}
+.a2
+{
+    height:30px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+   
+}
+.rightsid
+{
+    height:50px;
+    width: 50px;
+    background-color:red;
+    float: left;
+}
+.ritt1
+{
+    height: 10px;
+    width:50px;
+    background-color:black;
+}
+.ritt2
+{
+    height: 30px;
+    width: 50px;
+    background-color: #ffb464;
+   text-align: center;
+  
+ 
+}
+.middsid
+{
+    height:50px;
+    width: 500px;
+    background-color:black;
+    float: left;
+}
+
+.right
+{
+    height: 50px;
+    width: 300px;
+    background-color: pink;
+    float: left;
+}
+.rt1
+{
+    height:50px;
+    width:100px;
+    background-color: black;
+    float: left;
+}
+.rt1 li
+{
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.na2
+{
+    height: 50px;
+    width: 1200px;
+    background-color: #232f3e;
+}
+.le1
+{
+    height: 50px;
+    width: 600px;
+    float: left;    
+}
+.le1 li
+{
+    list-style: none;
+   float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+    line-height: 50px;
+}
+.le2
+{
+    height: 50px;
+    width: 600px;
+    float: left;   
+}
+.le2 li
+{
+    list-style: none;
+      
+     font-size: 20px;
+     margin-left: 10px;
+     line-height: 20px;
+     line-height: 50px; 
+    text-align: right; 
+}
+.frantimg
+{
+    height:300px;
+    width: 1200px;
+    background-color: #ffb464;
+}
+.im2
+{
+    height:100%;
+    width:100%;
+}
+.containe1
+{
+  min-height: 600px;
+  width: 1200px;
+    background-color:#ffffff;
+ 
+}
+.top
+{
+    height: 300px;
+    width: 1200px;
+    background-color:#232f3e;
+  
+}
+
+.m1
+{
+    height: 260px;
+    width:260px;
+    background-color: #232f3e;
+    float: left;
+    margin: 20px; 
+}
+.m1
+{
+    height: 260px;
+    width:260px;
+    background-color: teal;
+    float: left;
+    margin: 20px;
+
+}
+.m1
+{
+    height: 260px;
+    width:260px;
+    background-color:pink;
+    float: left;
+    margin: 20px;
+}
+.m1
+{
+    height: 260px;
+    width:260px;
+    background-color:#232f3e;
+    float: left;
+    margin: 20px;
+}
+.m1top
+{
+    height:50px;
+    width: 260px;
+    background-color:red;
+    animation: abc 1s infinite;
+    transition: all 1s;
+}
+
+.m1top2
+{
+    height: 160px;
+    width: 260px;
+    background-color: #ffffff;
+
+}
+
+.imh
+{
+    height: 160px;
+    width: 240px;
+    margin:0px 10px 0px 10px;
+
+ }
+
+.buttom
+{
+    height: 300px;
+    width: 1200px;
+    background-color:#ffffff ;
+    
+}
